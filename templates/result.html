@@ -2,17 +2,29 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Flask App</title>
+    <title>Emoji Predictied</title>
     <style>
+
       body {
-        background-color: #F0F8FF;
-        font-family: Arial, sans-serif;
+      display: flex;
+      background-image: url('/static/bg.png');
+      font-family: Arial, sans-serif;
+       background-color: #cccccc;
+      height: 500px; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover; 
+    }
+
+      h1 {
+        color: rgb(0, 0, 0);
       }
-      
+
     </style>
   </head>
+
   <body>
     <h1>Result: {{outtext}}</h1>
-
   </body>
+
 </html>
