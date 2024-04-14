@@ -77,3 +77,8 @@ The GloVe word embeddings used in this project were trained by the Stanford NLP 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Outputs 
+
+![Screenshot 2024-04-14 175739](https://github.com/Priyanshuparth/Emojify_text/assets/73892924/c71f0420-ee18-4966-b1f9-8fa0a7f6d0a4)
+![Screenshot 2024-04-14 175748](https://github.com/Priyanshuparth/Emojify_text/assets/73892924/7182d539-16d2-49b5-8e88-da1e05e49993)
