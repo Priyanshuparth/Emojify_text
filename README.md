@@ -9,6 +9,27 @@
 
 Emojify Text is a web application built using Flask and Keras that predicts and appends relevant emojis to the input text. It utilizes a Long Short-Term Memory (LSTM) neural network trained on a dataset of text samples paired with emoji labels.
 
+## Activities
+
+- Preprocessing and tokenization of text data.
+- Training an LSTM neural network model.
+- Building a web interface using Flask.
+- Predicting emojis for user-input text.
+
+## Technologies Used
+
+- Python
+- Flask
+- Keras
+- TensorFlow
+- Pandas
+- NumPy
+
+## Prerequisites
+
+- Python 3.x
+- pip (Python package manager)
+
 ## Installation
 
 1. Clone the repository:
@@ -16,18 +37,19 @@ Emojify Text is a web application built using Flask and Keras that predicts and 
    ```bash
    git clone https://github.com/Priyanshuparth/Emojify_text.git
    ```
-3. Install the required Python packages:
+2. Install the required Python packages:
    
     ```bash
     pip install -r requirements.txt
     ```
-5. Download the pre-trained GloVe word embeddings:
+3. Download the pre-trained GloVe word embeddings:
    
     - Download glove.6B.100d.txt from here
     - Place the file in the project directory.
 
 
 ## Usage
+
 1. Run the Flask application:
     ```bash
     python app.py
@@ -36,15 +58,19 @@ Emojify Text is a web application built using Flask and Keras that predicts and 
 3. Enter your text in the input field and submit. The application will predict and display the corresponding emoji.
 
 ## Model
+
 The LSTM model architecture consists of an embedding layer followed by two LSTM layers and a dense layer with softmax activation. The model is trained using categorical cross-entropy loss and optimized using the Adam optimizer.
 
 ## Dataset
+
 The dataset used for training consists of text samples paired with emoji labels. The dataset is preprocessed and tokenized before training the model.
 
 ## Acknowledgements
+
 The GloVe word embeddings used in this project were trained by the Stanford NLP Group.
 
 ## Contributors
+
 - [Priyanshu Parth](https://github.com/Priyanshuparth)
 - [Abhijeet Shankar](https://github.com/abhijeet-shankar)
 
